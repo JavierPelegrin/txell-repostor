@@ -1,6 +1,6 @@
 const sr = ScrollReveal();
 
-sr.reveal(".SomeBooks div",{
+sr.reveal(".SomeImg div",{
     duration: 2000
 });
 

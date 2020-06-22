@@ -56,7 +56,7 @@ header .HomePages {
 }
 
 /* Algunas fotos*/
-.SomeBooks {
+.SomeImg {
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -64,10 +64,14 @@ header .HomePages {
     padding: 0px 25px;
 }
 
-.SomeBooks img {
+.SomeImg img {
     text-align: justify;
     width: 100%;
     margin-top: 60px;
+}
+
+.SomeImg img:hover {
+    opacity: 50%;
 }
 
 /* cosas nuevas : sirve para que la pagina sea "responsive design" */
@@ -86,11 +90,11 @@ header .HomePages {
     header {
         margin-bottom: 30px;
     }
-    .SomeBooks {
+    .SomeImg {
         display: grid;
         grid-template-columns: 1fr;
     }
-    .SomeBooks img {
+    .SomeImg img {
         width: 100%;
     }
 }
