@@ -58,17 +58,16 @@ header .HomePages {
 
 /* Algunas fotos*/
 .SomeImg {
-    margin-top: 100px;
+    margin-top: 160px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px;
     gap: 25px;
-    padding: 0px 25px;
 }
 
 .SomeImg img {
     text-align: justify;
     width: 100%;
-    margin-top: 60px;
 }
 
 .product p {
@@ -85,7 +84,9 @@ header .HomePages {
 .SomeImg .product:hover p {
     visibility: visible;
 }
-
+.SomeImg .product {
+    border: black solid 2px;
+}
 
 /* cosas nuevas : sirve para que la pagina sea "responsive design" */
 
@@ -113,8 +114,10 @@ header .HomePages {
         margin-top: 0px;
         display: grid;
         grid-template-columns: 1fr;
+        gap: 75px;
     }
     .SomeImg img {
+        text-align: center;
         width: 100%;
     }
 }
