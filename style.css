@@ -79,7 +79,7 @@ header .HomePages {
 }
 
 .SomeImg .product:hover img {
-    opacity: 50%;
+    opacity: 30%;
 }
 
 .SomeImg .product:hover p {
@@ -93,17 +93,25 @@ header .HomePages {
     .body {
         display: block;
     }
+    .HomePages header i {
+        display: none;
+    }
     .HomePages header img {
         width: 20%;
+    }
+    .HomePages .slider{
+        display: none;
     }
     .HomePages li {
         display: inline;
         margin-left: 30px;
     }
     header {
-        margin-bottom: 30px;
+        margin-bottom: 
+        30px;
     }
     .SomeImg {
+        margin-top: 0px;
         display: grid;
         grid-template-columns: 1fr;
     }

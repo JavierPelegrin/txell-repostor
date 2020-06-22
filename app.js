@@ -1,7 +1,8 @@
 const sr = ScrollReveal();
 
 sr.reveal(".SomeImg div",{
-    duration: 2000
+    duration: 2000,
+    reset: true,
 });
 
 window.addEventListener('load',function() {
