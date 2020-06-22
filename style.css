@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .body {
@@ -70,9 +71,21 @@ header .HomePages {
     margin-top: 60px;
 }
 
-.SomeImg img:hover {
+.product p {
+    position: relative;
+    text-align: center;
+    bottom: 150px;
+    visibility: hidden;
+}
+
+.SomeImg .product:hover img {
     opacity: 50%;
 }
+
+.SomeImg .product:hover p {
+    visibility: visible;
+}
+
 
 /* cosas nuevas : sirve para que la pagina sea "responsive design" */
 
