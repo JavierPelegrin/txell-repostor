@@ -84,9 +84,6 @@ header .HomePages {
 .SomeImg .product:hover p {
     visibility: visible;
 }
-.SomeImg .product {
-    border: black solid 2px;
-}
 
 /* cosas nuevas : sirve para que la pagina sea "responsive design" */
 
