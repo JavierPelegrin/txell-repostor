@@ -1,6 +1,7 @@
 const sr = ScrollReveal();
 
 sr.reveal(".SomeImg div",{
+    delay: 5,
     duration: 2000,
     reset: true,
 });
