@@ -5,6 +5,7 @@
 }
 
 .body {
+    background-color: white;
     margin-top: 15px;
     display: inline-flex;
     margin-bottom: 20px;
@@ -73,7 +74,7 @@ header .HomePages {
 .product p {
     position: relative;
     text-align: center;
-    bottom: 150px;
+    bottom: 50%;
     visibility: hidden;
 }
 

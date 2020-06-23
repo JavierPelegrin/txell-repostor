@@ -9,11 +9,12 @@ window.addEventListener('load',function() {
     console.log("Funciona");
 
     var Imagenes = [];
-    total = 3
+    total = 4;
 
     Imagenes[0] = "./img/Imagen1.jpg";
     Imagenes[1] = "./img/Imagen2.jpg";
     Imagenes[2] = "./img/Imagen3.jpg";
+    Imagenes[3] = "./img/Imagen4.jpg";
 
     document.slider.src = Imagenes[1];
 
