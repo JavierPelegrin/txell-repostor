@@ -139,4 +139,7 @@ header .HomePages {
         text-align: center;
         width: 100%;
     }
+    .HomePages .Contact h3 {
+        padding: 0 25px;
+    }
 }
