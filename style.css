@@ -58,9 +58,6 @@ header .HomePages {
 }
 
 /* Algunas fotos*/
-.product {
-    border: black solid 1px;
-}
 
 .SomeImg {
     margin-top: 160px;
@@ -78,7 +75,7 @@ header .HomePages {
 .product p {
     position: relative;
     text-align: center;
-    bottom: 100%;
+    bottom: 95%;
     width: 100%;
     height: 0px;
     visibility: hidden;
@@ -91,6 +88,7 @@ header .HomePages {
 .SomeImg .product:hover p {
     visibility: visible;
 }
+
 
 /* Paginas de contacto */
 
@@ -107,8 +105,6 @@ header .HomePages {
 .HomePages .Contact p{
     margin-top: 25px;
 }
-
-
 
 
 /* cosas nuevas : sirve para que la pagina sea "responsive design" */
@@ -144,33 +140,3 @@ header .HomePages {
         width: 100%;
     }
 }
-
-
-
-/*
-ALGO PASAS CON ESTO MIRA BIEN PORQUE SE TE DESPLAZA LA IMAGEN PARA ABAJO Y HACE COSAS RARISIMAS PARECE QUE TE PONE UN MARGIN ARRIBA RARISIMO QUE ES IMPOSIBLE DE QUITAR OSEA QUE ALGO PONES MAL
-
-.Product::before {
-    opacity: 50%;
-    padding: 10px;
-    background-color: silver;
-    border: black solid 0.3px;
-    position: relative;
-    top: 310px;
-    left: 90px;
-    content: "<";
-    color: black;
-}
-
-.Product::after {
-    opacity: 50%;
-    padding: 10px;
-    background-color: silver;
-    border: black solid 0.3px;
-    position: relative;
-    bottom: 310px;
-    left: 290px;
-    content: ">";
-    color: black;
-}
-*/
