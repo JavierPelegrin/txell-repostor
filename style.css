@@ -86,6 +86,25 @@ header .HomePages {
     visibility: visible;
 }
 
+/* Paginas de contacto */
+
+.HomePages .Contact {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.HomePages .Contact h3{
+    padding: 0px 80px;
+    margin-top: 25px;
+}
+
+.HomePages .Contact p{
+    margin-top: 25px;
+}
+
+
+
+
 /* cosas nuevas : sirve para que la pagina sea "responsive design" */
 
 @media screen and (max-width:750px) {
